@@ -1,0 +1,4 @@
+1478544216587	Extract local variable 'length'
+1478544597484	Extract method 'createColorPalette'
+1478544674127	Extract method 'adjustPen'
+1478544744824	Extract method 'drawPentagon'

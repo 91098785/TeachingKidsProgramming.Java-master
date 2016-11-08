@@ -2,3 +2,7 @@
 1478544597484	Extract method 'createColorPalette'
 1478544674127	Extract method 'adjustPen'
 1478544744824	Extract method 'drawPentagon'
+1478625701617	Extract method 'drawOctagonWithOverlap'
+1478626192772	Extract method 'createColorPalette'
+1478626217173	Extract method 'drawOctagon'
+1478626647005	Extract method 'createAStitch'

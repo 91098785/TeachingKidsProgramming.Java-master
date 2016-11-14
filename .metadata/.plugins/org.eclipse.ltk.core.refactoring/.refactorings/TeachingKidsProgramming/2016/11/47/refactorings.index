@@ -1,0 +1,7 @@
+1479148094219	Extract method 'drawBranch'
+1479148638469	Extract method 'drawLowerBranches'
+1479148753097	Extract method 'drawShorterBranch'
+1479149330438	Extract local variable 'branchLength'
+1479149382588	Extract method 'drawBranch'
+1479149584075	Extract method 'drawLowerBranches'
+1479149630445	Extract method 'drawShorterBranch'

@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.util.HashMap;
 
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 
 public class TurtleTree
 {
@@ -12,7 +13,7 @@ public class TurtleTree
   {
     Tortoise.show();
     Tortoise.setSpeed(10);
-    //    Turn the background black  --#21
+    Tortoise.getBackgroundWindow().setBackground(PenColors.Grays.Black);
     int branchLength = 60;
     drawBranch(branchLength);
   }
@@ -20,21 +21,21 @@ public class TurtleTree
   {
     if (branchLength > 0)
     {
-      //        adjustColor (recipe below)--#15.1
-      //        ------------- Recipe for adjustColor --#15.2
-      HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
-      //            A 10 pixel long branch is lime --#20
-      //            A 20 pixel long branch is forest green --#19
-      //            A 30 pixel long branch is dark green --#18
-      //            A 40 pixel long branch is olive --#17
-      //            A 50 pixel long branch is sienna --#14
-      //            A 60 pixel long branch is saddle brown (TIP: Put the values into the 'colors' HashMap)--#13 
-      //            Get the value of the branch length from the 'colors' HashMap and use that to set the pen color --#21
-      //        ------------- End of adjustColor --#15.3
-      //
+      adjustColor(branchLength);
       Tortoise.move(branchLength);
       drawLowerBranches(branchLength);
     }
+  }
+  private static void adjustColor(int branchLength)
+  {
+    HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
+    colors.put(10, PenColors.Greens.Lime);
+    colors.put(20, PenColors.Greens.ForestGreen);
+    colors.put(30, PenColors.Greens.DarkGreen);
+    colors.put(40, PenColors.Greens.Olive);
+    colors.put(50, PenColors.Browns.Sienna);
+    colors.put(60, PenColors.Browns.SaddleBrown);
+    Tortoise.setPenColor(colors.get(branchLength));
   }
   private static void drawLowerBranches(int branchLength)
   {
@@ -43,7 +44,7 @@ public class TurtleTree
     Tortoise.turn(-60);
     drawShorterBranch(branchLength);
     Tortoise.turn(30);
-    //            adjustColor --#16
+    adjustColor(branchLength);
     Tortoise.move(-branchLength);
   }
   private static void drawShorterBranch(int branchLength)

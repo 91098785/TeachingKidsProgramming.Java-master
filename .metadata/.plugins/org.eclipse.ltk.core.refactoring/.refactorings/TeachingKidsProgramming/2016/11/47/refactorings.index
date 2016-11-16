@@ -5,3 +5,5 @@
 1479149382588	Extract method 'drawBranch'
 1479149584075	Extract method 'drawLowerBranches'
 1479149630445	Extract method 'drawShorterBranch'
+1479312586366	Extract method 'adjustColor'
+1479313182092	Extract local variable 'lineLength'

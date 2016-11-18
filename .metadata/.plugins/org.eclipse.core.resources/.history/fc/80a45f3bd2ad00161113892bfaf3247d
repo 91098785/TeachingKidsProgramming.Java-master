@@ -1,0 +1,43 @@
+package org.teachingkidsprogramming.section05recursion;
+
+import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.Turtle.Animals;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+
+public class SpiderWeb
+{
+  public static void main(String[] args)
+  {
+    Tortoise.show();
+    Tortoise.setSpeed(10);
+    Tortoise.setPenWidth(1);
+    //    Change the Tortoise to a Spider --#14
+    Tortoise.setAnimal(Animals.Spider);
+    Tortoise.setPenColor(PenColors.Reds.Red);
+    Tortoise.getBackgroundWindow().setBackground(PenColors.Grays.Black);
+    double lineLength = 10.5;
+    double currentZoom = 1.1;
+    for (int i = 0; i < 10; i++)
+    {
+      weaveOneLayer(lineLength, currentZoom);
+      drawTriangle(currentZoom * 1.3);
+    }
+  }
+  private static void weaveOneLayer(double lineLength, double currentZoom)
+  {
+    for (int i = 0; i < 6; i++)
+    {
+      drawTriangle(lineLength);
+      Tortoise.turn(360 / 6);
+      drawTriangle(lineLength + currentZoom);
+    }
+  }
+  private static void drawTriangle(double lineLength)
+  {
+    for (int i = 0; i < 3; i++)
+    {
+      Tortoise.move(lineLength);
+      Tortoise.turn(360 / 3);
+    }
+  }
+}

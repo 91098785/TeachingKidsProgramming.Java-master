@@ -7,3 +7,8 @@
 1479149630445	Extract method 'drawShorterBranch'
 1479312586366	Extract method 'adjustColor'
 1479313182092	Extract local variable 'lineLength'
+1479502565822	Extract local variable 'currentZoom'
+1479502603410	Extract method 'weaveOneLayer'
+1479504049317	Extract method 'moveToTheSquareStart'
+1479504087580	Extract method 'moveBackToCenter'
+1479504745598	Extract method 'makeASquare'

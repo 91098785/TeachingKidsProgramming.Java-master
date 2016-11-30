@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DeepDive05Recursion" project="TeachingKidsProgramming" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.256">
+    <testcase name="findTheGreenKey" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.041"/>
+    <testcase name="setColorUsingKey" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.0"/>
+    <testcase name="whichCoinIsSecond" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.001"/>
+    <testcase name="findTheNumberPositionOfTheWorld" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.0"/>
+    <testcase name="getTheWindow" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.21"/>
+    <testcase name="getThirdCoin" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.001"/>
+    <testcase name="putAQuarterAtTheEnd" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.0"/>
+    <testcase name="getWhatsLast" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.0"/>
+    <testcase name="findTheColorForTheBananaKey" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.001"/>
+    <testcase name="changeThePointerToAHand" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.001"/>
+    <testcase name="putAFiftyCentPieceFirst" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.0"/>
+    <testcase name="whatIsLastNow" classname="org.teachingkidsprogramming.section05recursion.DeepDive05Recursion" time="0.001"/>
+  </testsuite>
+</testrun>

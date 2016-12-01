@@ -8,12 +8,12 @@ public class AdLibs
   {
     String currentAdverb = MessageBox.askForTextInput("enter an adverb");
     String currentEdVerb = MessageBox.askForTextInput("enter verb that ends with -ed");
-    String currentBodyPart = MessageBox.askForTextInput("enter a name of a body part");
+    //  Ask the user to enter a body part, save it as currentBodyPart --#6
     String currentStory = "Today";
     currentStory = currentStory + " " + "I woke " + currentAdverb + ". ";
-    currentStory = currentStory + " " + "Then I " + currentEdVerb;
+    //  Add the words '"Then I " + currentEdVerb + " " to the currentStory --#5
+    currentStory = currentStory + "Then I " + currentEdVerb;
     //  Add the words "my " + currentBodyPart + ". " to the current story --#7
-    currentStory = currentStory + " " + "my" + " " + currentBodyPart;
     MessageBox.showMessage(currentStory);
   }
 }

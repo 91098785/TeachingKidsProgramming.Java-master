@@ -7,3 +7,8 @@
 1480440191925	Extract method 'moveToTheSquareStart'
 1480440257564	Extract method 'moveBackToCenter'
 1480441127293	Extract method 'makeASquare'
+1480522102981	Extract local variable 'currentStory'
+1480522269073	Extract local variable 'adverb'
+1480522295403	Extract local variable 'currentAdverb'
+1480522566745	Extract local variable 'currentEdVerb'
+1480522838998	Extract local variable 'currentBodyPart'

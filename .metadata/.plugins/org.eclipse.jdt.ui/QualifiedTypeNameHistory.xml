@@ -13,4 +13,7 @@
 <fullyQualifiedTypeName name="org.teachingextensions.logo.utils.ColorUtils.PenColors"/>
 <fullyQualifiedTypeName name="org.teachingextensions.logo.utils.ColorUtils.PenColors.Grays"/>
 <fullyQualifiedTypeName name="org.teachingextensions.logo.Tortoise"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.protocol.giopmsgheaders.Message"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.teachingextensions.logo.utils.EventUtils.MessageBox"/>
 </qualifiedTypeNameHistroy>

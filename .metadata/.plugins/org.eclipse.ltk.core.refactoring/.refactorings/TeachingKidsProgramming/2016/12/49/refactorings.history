@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TeachingKidsProgramming/src/org/teachingkidsprogramming/section06modelviewcontroller/katas_and variatons&apos; to &apos;katas_and_variatons&apos;" description="Rename resource &apos;katas_and variatons&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/org/teachingkidsprogramming/section06modelviewcontroller/katas_and variatons" name="katas_and_variatons" stamp="1480630568790" updateReferences="true"/>
+</session>

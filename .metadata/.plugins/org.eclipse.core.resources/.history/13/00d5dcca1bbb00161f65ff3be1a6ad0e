@@ -37,7 +37,7 @@ public class DeepDive06ModelViewController
   public void trashtalkingFlorida() throws Exception
   {
     String compareThis = "is to";
-    String analogy = "Florida " + "is to" + " America as appendix " + "is to" + " body";
+    String analogy = "Florida " + ___ + " America as appendix " + ___ + " body";
     Assert.assertEquals("Florida is to America as appendix is to body", analogy);
   }
   @Test

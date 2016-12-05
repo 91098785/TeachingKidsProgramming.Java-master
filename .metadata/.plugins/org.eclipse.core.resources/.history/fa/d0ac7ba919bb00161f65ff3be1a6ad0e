@@ -1,0 +1,30 @@
+package org.teachingkidsprogramming.section06modelviewcontroller;
+
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
+
+public class AdLibsRtf
+{
+  public static class Words
+  {
+    //adverb
+   private String adverb;
+    // edverb
+    private String edVerb;
+    //bodypart
+   private  String bodyPart;
+  }
+  
+  public static void main(String[] args)
+  {
+    //  Create a new 'word' container your story's words (uncomment line 9) --#1.1
+    Words words = new Words();
+    //  Ask the user to enter an adverb, save it as currentAdverb --#2
+    words.adverb = MessageBox.askForTextInput("Enter an adverb");
+    //  Ask the user to enter a verb ending in '-ed', save it as currentEdVerb --#3
+    words.edVerb = MessageBox.askForTextInput("Enter a verb ending with -ed");
+    //  Ask the user to enter a body part, save it as currentBodyPart --#4
+    words.bodyPart = MessageBox.askForTextInput("Enter a body part");
+    //  Connect the words in the currentStory to an RTF file parser (use the Parser object)  --#1.2
+    //  Display the currentStory in an RTF file (use the Viewer object) --#1.3
+  }
+}

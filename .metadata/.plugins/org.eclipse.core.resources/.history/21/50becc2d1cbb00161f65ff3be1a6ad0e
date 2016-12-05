@@ -54,14 +54,12 @@ public class DeepDive06ModelViewController
     String selfDeprecation = "The nerds who made this were";
     String anAppleADay = "the doctors who complimented their mental stability.";
     String analogy = selfDeprecation + " as sarcastic as " + anAppleADay;
-    Assert.assertEquals(
-        "The nerds who made this were as sarcastic as the doctors who complimented their mental stability.",
-        analogy);
+    Assert.assertEquals(___, analogy);
   }
   @Test
   public void skydivingFrenchKings() throws Exception
   {
-    String compareThis = "is to";
+    String compareThis = ___;
     String analogy = "Skydiving " + compareThis + " sensible as Louis XVI " + compareThis + " leadership";
     Assert.assertEquals("Skydiving is to sensible as Louis XVI is to leadership", analogy);
   }

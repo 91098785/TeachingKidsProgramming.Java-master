@@ -61,7 +61,7 @@ public class DeepDive06ModelViewController
   @Test
   public void skydivingFrenchKings() throws Exception
   {
-    String compareThis = "is to";
+    String compareThis = ___;
     String analogy = "Skydiving " + compareThis + " sensible as Louis XVI " + compareThis + " leadership";
     Assert.assertEquals("Skydiving is to sensible as Louis XVI is to leadership", analogy);
   }

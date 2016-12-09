@@ -84,7 +84,7 @@ public class DeepDive06ModelViewController
         + " plus three times the square root of four, divided by seven, plus five times eleven";
     String aResult = aCalculation + " is nine squared and not a bit more";
     Assert.assertEquals("A dozen, a gross, and a score plus three times the square root of four,"
-        + " divided by seven, plus five times eleven is nine squared and not a bit more", aResult);
+        + " divided by seven, plus five times eleven is nine squared and not a bit more", ___);
   }
   @Test
   public void lookUp() throws Exception

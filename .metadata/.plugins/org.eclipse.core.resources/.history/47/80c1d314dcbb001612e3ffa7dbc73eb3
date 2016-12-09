@@ -69,8 +69,8 @@ public class DeepDive06ModelViewController
   public void infiniteB() throws Exception
   {
     String infinite = "B";
-    String analogy = "The " + "B" + " in " + "B" + "enoit " + "B" + ". Mandelbrot stands for " + "B" + "enoit "
-        + "B" + ". Mandelbrot.";
+    String analogy = "The " + ___ + " in " + ___ + "enoit " + ___ + ". Mandelbrot stands for " + ___ + "enoit "
+        + ___ + ". Mandelbrot.";
     Assert.assertEquals("The B in Benoit B. Mandelbrot stands for Benoit B. Mandelbrot.", analogy);
   }
   @Test
@@ -84,7 +84,7 @@ public class DeepDive06ModelViewController
         + " plus three times the square root of four, divided by seven, plus five times eleven";
     String aResult = aCalculation + " is nine squared and not a bit more";
     Assert.assertEquals("A dozen, a gross, and a score plus three times the square root of four,"
-        + " divided by seven, plus five times eleven is nine squared and not a bit more", aResult);
+        + " divided by seven, plus five times eleven is nine squared and not a bit more", ___);
   }
   @Test
   public void lookUp() throws Exception

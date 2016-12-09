@@ -103,9 +103,9 @@ public class DeepDive06ModelViewController
   @Test
   public void inYourOwnWords() throws Exception
   {
-    numbers.put(12, "dozen");
-    numbers.put(144, "gross");
-    numbers.put(20, "score");
+    numbers.put(12, ___);
+    numbers.put(144, ___);
+    numbers.put(20, ___);
     String aSomething = "A " + numbers.get(12) + ", a " + numbers.get(144) + ", and a " + numbers.get(20);
     String aCalculation = aSomething
         + " plus three times the square root of four, divided by seven, plus five times eleven";
